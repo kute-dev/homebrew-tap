@@ -9,26 +9,26 @@ cask "kute" do
     end
   end
 
-  version "0.12.3"
+  version "0.12.4"
 
   on_macos do
     on_intel do
-      sha256 "016df6115d29d5f90f49467e5c797da227a7a61e4002f5a363aa7fe438847006"
+      sha256 "fe38997adfc9042a8c6037fe0aaa0ff657cc8bccdbe9a558651693a94f95bd59"
       url "https://github.com/kute-dev/kute/releases/download/v#{version}/kute_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "01986d7699ca1e386abf548b6a934e353263a0aebd109f26286d9a84d8e90f43"
+      sha256 "e2d65f1a8fc892eba099d5a451a1c0b907f0816cf9ccac78e639358d769ec6dc"
       url "https://github.com/kute-dev/kute/releases/download/v#{version}/kute_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "4e80e342e1013a7f9e92d512134eb57720d2ad0f3bc25ed3ce3d355386356d76"
+      sha256 "1869f7dbf242243274ebbece351af022d80e5af4f65bab479011016276649b45"
       url "https://github.com/kute-dev/kute/releases/download/v#{version}/kute_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "3e6fe2ef6339c30e99cc9fcccd2bc1af217ed53be5812a650268cd086c550829"
+      sha256 "1ca466133885f43f8abc253b0af658a3576c226b5d26fefb94516e6f62e6b952"
       url "https://github.com/kute-dev/kute/releases/download/v#{version}/kute_#{version}_linux_arm64.tar.gz"
     end
   end
